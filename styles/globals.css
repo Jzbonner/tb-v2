@@ -1,16 +1,40 @@
-html,
+/*css-resets*/
+* {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: none;
+  margin: 0;
+}
 body {
+  padding: 5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+blockquote,
+form,
+ul,
+ol,
+dl {
+  margin: 20px 0;
+}
+li,
+dd,
+blockquote {
+  margin-left: 40px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
